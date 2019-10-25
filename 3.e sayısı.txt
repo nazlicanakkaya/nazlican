@@ -1,0 +1,9 @@
+#euler serisiyle e sayýsý hesaplama
+from math import factorial
+#faktöriyeli for döngüsüyle de hesaplayabilirdik, uzatmak istemedim
+toplam=0
+for i in range (0,1000):
+    toplam=toplam+(1/factorial(i))
+    e=toplam
+                
+print(e)

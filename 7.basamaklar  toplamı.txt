@@ -1,0 +1,9 @@
+#100ler ve 10lar basamaðý toplamý 1ler basamaýðýný veren 3 basamaklý sayýlar
+sayac=0
+for i in range (1,10):
+    for j in range(0,10):
+        for k in range (0,10):
+            if i+j==k:
+                print(100*i+10*j+k)
+                sayac+=1 #sayesinde bu sayýlardan kaç tane var onu bulduk
+print(sayac)             #mantýk kaç kere ife girildiði

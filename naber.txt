@@ -1,0 +1,10 @@
+#break kullanmadan iyiyim yazana kadar naber diye soran kod
+n=1
+while n<1000:
+    cevap=input("naber?")
+    if cevap=="iyiyim":
+        print(":)")
+        n=1000
+    else:
+        n=n+1
+        
