@@ -1,0 +1,8 @@
+#rekürsif fonk. örneði(kendinden küçük çift sayýlarý topla)
+def toplam(sayi):
+    if sayi==0:
+        return 0
+    elif sayi%2==0:
+            return sayi+toplam(sayi-2)
+    else:
+        print("lütfen çift sayý giriniz")
