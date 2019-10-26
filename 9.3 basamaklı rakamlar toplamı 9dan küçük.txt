@@ -1,0 +1,8 @@
+#999a kadar rakamlarý toplamý 9dan küçük sayýlar
+for h in range(0,10):
+    for k in range(0,10):
+        for i in range(0,10):
+            if i+k+h<9:
+                x=i+10*k+h*100
+                print(x,end=" ")#toplama iþlemlerinde str kullanamýyorum.
+                #for kullanmadan yapamýyorum
