@@ -1,0 +1,5 @@
+#bölümden kalan hep ayný. en büyük kalaný veren x nedir
+for x in range(1,125):
+    if 125%x==200%x==350%x:
+        print(x)#tüm olasý xler bastýrýlýyor.
+        #en büyük deðeri ayný yazamadým
