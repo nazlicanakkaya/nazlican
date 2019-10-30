@@ -1,9 +1,10 @@
-#100ler ve 10lar basamağı toplamı 1ler basamaığını veren 3 basamaklı sayılar
+#100ler ve 10lar basamaÄŸÄ± toplamÄ± 1ler basamaÄ±ÄŸÄ±nÄ± veren 3 basamaklÄ± sayÄ±lar
 sayac=0
 for i in range (1,10):
     for j in range(0,10):
         for k in range (0,10):
             if i+j==k:
                 print(100*i+10*j+k)
-                sayac+=1 #sayesinde bu sayılardan kaç tane var onu bulduk
-print(sayac)             #mantık kaç kere ife girildiği
+                sayac+=1 #sayesinde bu sayÄ±lardan kaÃ§ tane var onu bulduk
+print(sayac)             #mantÄ±k kaÃ§ kere ife girildiÄŸi
+#bunlar yerine str devam edip her terimi tekrar int Ã§evir
