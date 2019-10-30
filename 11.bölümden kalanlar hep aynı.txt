@@ -1,5 +1,5 @@
-#bölümden kalan hep aynı. en büyük kalanı veren x nedir
+#bÃ¶lÃ¼mden kalan hep aynÄ±. en bÃ¼yÃ¼k kalanÄ± veren x nedir
 for x in range(1,125):
     if 125%x==200%x==350%x:
-        print(x)#tüm olası xler bastırılıyor.
-        #en büyük değeri aynı yazamadım
+        print(x)#tÃ¼m olasÄ± xler bastÄ±rÄ±lÄ±yor.
+        #en bÃ¼yÃ¼k deÄŸeri ayrÄ± yazamadÄ±m
