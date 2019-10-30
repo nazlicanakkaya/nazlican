@@ -1,4 +1,4 @@
-#euler serisiyle pi sayýsý hesaplama
+#euler serisiyle pi sayisi hesaplama
 from math import sqrt
 
 toplam=0
