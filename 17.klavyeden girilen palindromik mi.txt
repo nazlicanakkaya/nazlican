@@ -1,0 +1,6 @@
+#klavyeden plndrmk
+a=input("3 veya 4 bir sayý giriniz: ")
+if int(a)>9999:
+    print("lütfen 3 veya 4 basamaklý bir sayý giriniz")
+elif a==a[::-1]:
+    print("girilen sayi palindromiktir")
