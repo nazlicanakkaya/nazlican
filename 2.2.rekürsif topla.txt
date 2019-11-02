@@ -1,0 +1,6 @@
+#rekürsif 1'den n'e topla
+def top(n):
+    if n==1:
+        return 1
+    else:
+        return n+top(n-1)
