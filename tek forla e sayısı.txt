@@ -1,0 +1,11 @@
+#tek forla e sayısı
+def fact(x):
+    if x==0:
+        return 1
+    else:
+        return x*fact(x-1)
+e=0
+for i in range(0,10):
+    e=e+(1/fact(i))
+print(e)
+    

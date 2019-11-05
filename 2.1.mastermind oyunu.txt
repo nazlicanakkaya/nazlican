@@ -1,0 +1,42 @@
+#mastermind oyunu
+import random as r
+x=r.randint(10,98)
+
+while x%11==0:
+    x=r.randint(10,98)
+#print(x)
+y=str(x)
+
+a=int(input("sayı giriniz: "))
+
+
+if a<10 or a>98 or a%11==0:
+    print("girilen sayı uygun değildir")
+                                               
+     
+while a!=x:
+    b=str(a)
+    dy=0
+    yy=0
+    
+    if y[0]==b[0] or y[1]==b[1] :
+        dy=dy+1
+    if y[1]==b[0]:
+        yy=yy-1
+    if y[0]==b[1]:
+        yy=yy-1
+    
+    
+            
+            
+    print("dogruyer: ",dy)
+    print("yanlısyer:",yy)
+    
+
+
+    a=int(input("sayı gir: "))
+    if a<10 or a>98 or a%11==0:
+     print("girilen sayı uygun değildir")
+    
+if a==x:
+    print("TEBRİKLER KAZANDINIZ!! SAYI: ",  x)
