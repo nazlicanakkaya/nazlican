@@ -1,6 +1,8 @@
 #klavyeden plndrmk
-a=input("3 veya 4 bir sayý giriniz: ")
-if int(a)>9999:
-    print("lütfen 3 veya 4 basamaklý bir sayý giriniz")
+a=input("3 veya 4 bir sayÄ± giriniz: ")
+if int(a)>9999 or int(a)<100:
+    print("lÃ¼tfen 3 veya 4 basamaklÄ± bir sayÄ± giriniz")
 elif a==a[::-1]:
     print("girilen sayi palindromiktir")
+else:
+    print("sayÄ± palindromik deÄŸildir")
